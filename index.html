@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MUSIC PLAYER of HUAN</title>
+    <link rel="icon" type="image/x-icon" href="/src/img/logo-title.png">
+
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-icons/1.9.1/font/bootstrap-icons.min.css" integrity="sha512-5PV92qsds/16vyYIJo3T/As4m2d8b6oWYfoqV+vtizRB6KhF1F9kYzWzQmsO6T3z3QG2Xdhrx7FQ+5R1LiQdUA==" crossorigin="anonymous"
+        referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="src/css/main.css">
+</head>
+
+<body>
+
+    <div class="container">
+        <div id="header">
+            <nav class="navbar navbar-expand-lg background-gradient">
+                <div class="d-flex container-fluid ">
+                    <div class="navbar-icon-wrap">
+
+                        <button type="button" class=" navbar-arrow-btn">
+                            <i class="bi bi-box-arrow-left"></i>
+                        </button>
+
+                        <button type="button" class="btn navbar-home-btn">
+                            <i class="bi bi-house-door-fill"></i>
+                        </button>
+                        <button type="button" class=" navbar-arrow-btn">
+                            <i class="bi bi-box-arrow-right"></i>
+                        </button>
+                    </div>
+
+                    <button class=" btn btn-outline-dark navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                        <i class="bi bi-chevron-double-down .navbar-toggler-icon"></i>
+                    </button>
+                    <div class="collapse navbar-collapse navbar__search" id="navbarSupportedContent">
+
+                        <form class="d-flex" role="search">
+                            <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                            <button class="btn btn-outline-dark" type="submit">Search</button>
+                        </form>
+
+
+                    </div>
+                </div>
+            </nav>
+
+        </div>
+        <div id="body" class="background-gradient mt-1 d-flex flex-column justify-content-center">
+            <div class="title-song  "></div>
+            <div class="song-display d-flex justify-content-center align-items-center">
+                <div class="song-img" data-mdb-toggle="animation" data-mdb-animation-reset="true" data-mdb-animation="slide-out-right"></div>
+            </div>
+            <input type="range" class="form-range progress-song" min="0" max="100" step="0.5" value="0">
+        </div>
+        <div id="footer" class="background-gradient mt-1 d-flex justify-content-center align-items-center">
+            <div class="w-50 d-flex justify-content-between ">
+                <button type="button" class=" control-btn btn-prev-song">
+                    <i class="bi bi-arrow-left"></i>
+                </button>
+                <button type="button" class=" control-btn btn_play-song ">
+                    <i class="bi bi-play-fill"></i>
+                    <i class="bi bi-pause-fill"></i>
+                </button>
+                <button type="button" class=" control-btn btn-next-song">
+                    <i class="bi bi-arrow-right"></i>
+                </button>
+            </div>
+        </div>
+
+    </div>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js" integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.min.js" integrity="sha384-7VPbUDkoPSGFnVtYi0QogXtr74QeVeeIs99Qfg5YCF+TidwNdjvaKZX19NZ/e6oz" crossorigin="anonymous"></script>
+    <script src="/main.js"></script>
+    <script src="/data.json"></script>
+</body>
+
+</html>
