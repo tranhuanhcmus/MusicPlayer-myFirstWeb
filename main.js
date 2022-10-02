@@ -138,6 +138,8 @@ var app = function() {
 
     }
 
+    function fmtMSS(s) { return (s - (s %= 60)) / 60 + (9 < s ? ':' : ':0') + Math.floor(s) }
+
     btnPlay.addEventListener("click", playSong);
     btnNext.addEventListener("click", PlayNextSong)
     btnPrev.addEventListener("click", PlayPrevSong)
@@ -148,6 +150,9 @@ var app = function() {
         var percent = audio.currentTime / audio.duration * 100
 
         progressBar.value = percent
+
+        document.querySelector(".progress-bar__current-time").innerHTML = `${fmtMSS(audio.currentTime)}`
+        document.querySelector(".progress-bar__duration-time").innerHTML = `${fmtMSS(audio.duration)}`
     }
 
     progressBar.onchange = function(e) {
