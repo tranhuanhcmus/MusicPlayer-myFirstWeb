@@ -1,0 +1,67 @@
+[{
+        "name": "So Far Away",
+        "artist": "Martin Garrix & David Guetta ",
+        "img": "SoFarAway.jpg",
+        "audio": "SoFarAway.mp3"
+    },
+    {
+        "name": "Nevada ",
+        "artist": "Vicetone, Cozi Zuehlsdorff",
+        "img": "Nevada.jpg",
+        "audio": "Nevada.mp3"
+    },
+    {
+        "name": "Faded",
+        "artist": "Alan Walker",
+        "img": "Faded.jpg",
+        "audio": "Faded.mp3"
+    },
+    {
+        "name": "The Spectre",
+        "artist": " Alan Walker",
+        "img": "Spectre.jpg",
+        "audio": "Spectre.mp3"
+    },
+    {
+        "name": "Blue Bird",
+        "artist": "Ikimono Gakari",
+        "img": "BlueBird.jpg",
+        "audio": "Blue Bird.mp3"
+    },
+    {
+        "name": "In The End",
+        "artist": "Linkin Park",
+        "img": "In The End.jpg",
+        "audio": "In The End.mp3"
+    },
+    {
+        "name": "Numb",
+        "artist": "Linkin Park",
+        "img": "Numb.jpg",
+        "audio": "Numb.mp3"
+    },
+    {
+        "name": "Warriors",
+        "artist": "Imagine Dragons",
+        "img": "Warriors.jpg",
+        "audio": "Warriors.mp3"
+    },
+    {
+        "name": "Thunder",
+        "artist": "Imagine Dragons",
+        "img": "Thunder.jpg",
+        "audio": "Thunder.mp3"
+    },
+    {
+        "name": "Believer",
+        "artist": "Imagine Dragons",
+        "img": "Believer.jpg",
+        "audio": "Believer.mp3"
+    },
+    {
+        "name": "Bad Liar",
+        "artist": "Imagine Dragons",
+        "img": "Bad Liar.jpg",
+        "audio": "Bad Liar.mp3"
+    }
+]
